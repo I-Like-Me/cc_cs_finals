@@ -1,3 +1,5 @@
+import sign_post_details as SPD
+
 class TriChoice:
   def __init__(self, choice, you_choose, result):
     self.choice = choice
@@ -19,15 +21,15 @@ class TriChoice:
       print(self.situation.format(you_choose_txt = self.you_choose, action_txt = action, result_txt = self.result[2]))   
     else:
       print("\n")
-      print("You went off the path and got lost.")
+      print("You suffer an existential crisis.")
       
 class SignPost(TriChoice):
   def __init__(self, choice, you_choose, result):
     super().__init__(choice, you_choose, result)
     print("\n")
-    print("You have come to a cross road. Would you like to go {choice_0}, {choice_1}, or {choice_3}? ".format(choice_0 = choice[0], choice_1 = choice[1], choice_3 = choice[2]))
+    print(SPD.intro.format(choice_0 = choice[0], choice_1 = choice[1], choice_2 = choice[2]))
 
-sign_post_1 = SignPost(["right", "left", "forward"], "You walk ", [" and fall in a pit.", " and find the town.", " and bandits attack."])
+sign_post_1 = SignPost(SPD.directions, SPD.choosing, SPD.next)
 
 sign_post_1.adventure()
 
