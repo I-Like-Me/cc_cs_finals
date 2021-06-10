@@ -9,7 +9,7 @@ characters = {
   "cb": 1,
   "cm": 3,
   "cc": 5,
-  "nh": "Simone",
+  "hn": "Simone",
   "hj": "Hacker",
   "hb": 1,
   "hm": 5,
@@ -39,10 +39,10 @@ characters = {
   "bb": 2,
   "bm": 4,
   "bc": 3,
-  "bn": "Ryan",
-  "bj": "Intern",
-  "bb": 1,
-  "bm": 5,
-  "bc": 3
+  "in": "Ryan",
+  "ij": "Intern",
+  "ib": 1,
+  "im": 5,
+  "ic": 3
 }
 

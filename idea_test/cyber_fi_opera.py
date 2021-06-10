@@ -17,7 +17,7 @@ dif_sel = DCS.select_dif()
 
 current_player = PB.Player(CDDB.characters[p_char_sel.lower()+"n"], CDDB.characters[p_char_sel.lower()+"j"], CDDB.characters[p_char_sel.lower()+"b"], CDDB.characters[p_char_sel.lower()+"m"], CDDB.characters[p_char_sel.lower()+"c"], dif_sel)
 
-n_char_sel = SDIR.scenes["p"][current_player.win_count]
+n_char_sel = SDIR.scenes[p_char_sel][current_player.win_count]
 
 current_npc = NB.NPC(CDDB.characters[n_char_sel.lower()+"n"], CDDB.characters[n_char_sel.lower()+"j"], CDDB.characters[n_char_sel.lower()+"b"], CDDB.characters[n_char_sel.lower()+"m"], CDDB.characters[n_char_sel.lower()+"c"])
 
