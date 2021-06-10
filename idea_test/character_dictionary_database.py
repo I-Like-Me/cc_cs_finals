@@ -1,48 +1,48 @@
-pizza_guy = {
-  "name": "Ian"
-  "job": "Pizza Delivery Guy"
-  "body": 2
-  "mind": 2
-  "charm": 5
-}
-
-ceo = {
-  "name": "Harold"
-  "job": "CEO"
-  "body": 1
-  "mind": 3
-  "charm": 5
-}
-
-hacker = {
-  "name": "Simone"
-  "job": "Hacker"
-  "body": 1
-  "mind": 5
-  "charm": 3
-}
-
-swat = {
-  "name": "Dustin"
-  "job": "Swat_Officer"
-  "body": 6
-  "mind": 1
-  "charm": 2
-}
-
-android_assasin = {
-  "name": "X37"
-  "job": "Assasin"
-  "body": 5
-  "mind": 4
-  "charm": 0
-}
-
-cyborg_mechanic = {
-  "name": "Vicky"
-  "job": "Mechanic"
-  "body": 4
-  "mind": 3
-  "charm": 2
+characters = {
+  "pn": "Ian",
+  "pj": "Pizza Delivery Guy",
+  "pb": 2,
+  "pm": 2,
+  "pc": 5,
+  "cn": "Harold",
+  "cj": "CEO",
+  "cb": 1,
+  "cm": 3,
+  "cc": 5,
+  "nh": "Simone",
+  "hj": "Hacker",
+  "hb": 1,
+  "hm": 5,
+  "hc": 3,
+  "sn": "Dustin",
+  "sj": "Swat_Officer",
+  "sb": 6,
+  "sm": 1,
+  "sc": 2,
+  "an": "X37",
+  "aj": "Assassin",
+  "ab": 5,
+  "am": 4,
+  "ac": 0,
+  "mn": "Vicky",
+  "mj": "Mechanic",
+  "mb": 4,
+  "mm": 3,
+  "mc": 2,
+  "dn": "Endo",
+  "dj": "Cab Driver",
+  "db": 1,
+  "dm": 4,
+  "dc": 4,
+  "bn": "Blake",
+  "bj": "Barista Hipster",
+  "bb": 2,
+  "bm": 4,
+  "bc": 3,
+  "bn": "Ryan",
+  "bj": "Intern",
+  "bb": 1,
+  "bm": 5,
+  "bc": 3
 }
 

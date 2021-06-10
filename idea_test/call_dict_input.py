@@ -1,12 +1,15 @@
-
+character = {
+  "am": "kevin",
+  "ai": "steve",
+  "af": "will"
+  }
 
 selection = input("choose: ")
 
 
-options = {
-  "a": "kevin",
-  "b": "steve",
-  "c": "will"
-  }
+
   
-print(options[selection.lower()])
+print(character[selection.lower() + "m"])
+print("\n")
+print(character[selection.lower() + "i"])
+print(character[selection.lower() + "f"])

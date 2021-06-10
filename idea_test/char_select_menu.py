@@ -38,38 +38,33 @@ def select_char():
 ||                                                                                                   """)
   
   char_sel = {
-    "a": "pizza",
-    "b": "assassin",
-    "c": "hacker",
-    "d": "ceo",
-    "e": "swat",
-    "f": "mechanic",
-    "g": "barista",
-    "h": "cab",
-    "i": "intern"
+    "a": "p",
+    "b": "a",
+    "c": "h",
+    "d": "c",
+    "e": "s",
+    "f": "m",
+    "g": "b",
+    "h": "c",
+    "i": "i"
   
   }  
-  selection = input("||  Who would you like to be? ")
+  selection = input("||  Who am I? ")
   try:
     picked_char = char_sel[selection.lower()]
   except:
     print("||  Reevaluating life choices.")
-
-  selection = input("||  Who would you like to be? ")
-  try:
-    picked_char = char_sel[selection.lower()]
-  except:
-    print("||  What am self?")
-  
-  selection = input("||  Who would you like to be? ")
-  try:
-    picked_char = char_sel[selection.lower()]
-  except:
-    print("|| Having an existential crisis.")
-    quit()    
+    selection = input("||  Who am I? ")
+    try:
+      picked_char = char_sel[selection.lower()]
+    except:
+      print("||  What am self?")
+      selection = input("||  Who am I? ")
+      try:
+         picked_char = char_sel[selection.lower()]
+      except:
+         print("||  Having an existential crisis.")
+         quit()    
   
   return picked_char
   
-#character_selection = select_char()
-
-#print("You chose " + character_selection)
