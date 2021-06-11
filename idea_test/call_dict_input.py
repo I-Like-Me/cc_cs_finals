@@ -1,15 +1,19 @@
 character = {
   "am": "kevin",
   "ai": "steve",
-  "af": "will"
+  "af": ["will", "luis", "gene"]
   }
 
-selection = input("choose: ")
+for x in character["af"]:
+  print(x)
+
+
+# selection = input("choose: ")
 
 
 
   
-print(character[selection.lower() + "m"])
-print("\n")
-print(character[selection.lower() + "i"])
-print(character[selection.lower() + "f"])
+# print(character[selection.lower() + "m"])
+# print("\n")
+# print(character[selection.lower() + "i"])
+# print(character[selection.lower() + "f"])
